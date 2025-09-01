@@ -1,11 +1,21 @@
-# Linux Automation Scripts 🐧
-This project contains simple Bash scripts for cleaning cache/log files and scheduling them with cron.
+# Linux Automation Scripts
 
-## Features
-- Clear temporary cache files
-- Remove old logs
-- Schedule tasks using cron jobs
+This repository contains simple Bash scripts to automate routine system maintenance tasks.  
+The goal is to reduce manual work, keep systems clean, and learn DevOps scripting basics.
 
-## Usage
-```bash
-bash cleanup.sh
+---
+
+## 📂 Scripts Included
+
+### 1. cleanup.sh
+- Removes unnecessary temporary files from the `/tmp` directory.  
+- Helps free up disk space and improve system performance.  
+- Command used: `rm -rf /tmp/*` (safely clears temporary files).  
+
+---
+
+## 🚀 How to Use
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/vinothselvaraj9u8/Linux-Automation-scripts.git
+   cd Linux-Automation-scripts
